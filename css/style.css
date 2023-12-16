@@ -1,0 +1,238 @@
+
+body{
+    color: #1B515E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: #4CB9E7;
+    font-size: 4.625rem;
+    line-height: 2;
+    margin: 30px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #4CB9E7;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #79E0EE;
+    font-family: 'Merriweather', serif;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #1B515E 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999e;
+    font-style: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.top-container{
+    background-color: #FED6D0;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 50px 0 100px ;
+  
+}
+
+.bottom-container{
+    background-color: #FED6D0;
+    padding: 50px 0 20px;
+   
+}
+
+
+.me-riting{
+    width: 50%;
+    margin: auto;
+}
+
+.need-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.food-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.money-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.ps5-imgage{
+    width: 25%;
+    float: left;
+    margin-right: 30px;  
+}
+
+.glasses-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.Copywright{
+    color: #EAF6F6;
+    font-size: 0.95rem;
+    padding: 20px 0;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.cake{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    size: 20px;
+
+}
+
+
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Josefin', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+/**********carouel desisgn****/
+.carousel{
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.carousel__images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.carousel__track-container{
+   /*** background: lightgreen;****/
+    height: 100%;
+    position: relative;
+}
+
+.carousel__track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel__button--left{
+    left: -40px;
+}
+
+.carousel__button--right{
+    right: -40px;
+}
+
+.carousel__button img{
+    width: 12px;
+}
+
+.carousel__nav {
+    /*background: pink;*/
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: rgba(0,0,0,.3);
+    margin: 0 12px;
+}
+
+.carousel__indicator.current-slide{
+    background: rgba(0,0,0,.75);
+}
